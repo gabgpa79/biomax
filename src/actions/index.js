@@ -1,0 +1,12 @@
+export * from './auth.actions'
+export * from './usuario.actions'
+export * from './alert.actions'
+//clientes
+export * from './alumno.actions'
+export * from './carrera.actions'
+export * from './editorial.actions'
+export * from './dewey.actions'
+export * from './cuter.actions'
+export * from './dependencias.actions'
+export * from './documento.actions'
+export * from './reporte.actions'

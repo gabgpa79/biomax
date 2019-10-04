@@ -1,0 +1,23 @@
+sequelize model:create --name User --attributes name:string,username:string,password:string
+
+sequelize model:create --name Alumno --attributes codigo:string,nombres:string,telefono:string,estado:string,carreraId:integer,filename:string
+
+sequelize model:create --name Cuter --attributes codigo:string,label:string
+
+sequelize model:create --name Autor --attributes nombres:string,apellidos:string,cuterId:integer
+
+sequelize model:create --name Dewey --attributes codigo:string,label:string
+
+sequelize model:create --name Editorial --attributes codigo:string,nombre:string,pais:string,direccion:string
+
+sequelize model:create --name Carrera --attributes name:string,abreviacion:string
+
+sequelize model:create --name Documento --attributes titulo:string,isbn:string,numEjemplares:integer,numTomos:string,anio:string,filename:string,codigo:string,numPaginas:string,tags:string,origen:string,autor:string,autor1:string,cuter:string,dewey:string,edicion:string,tipo:string,observaciones:string,editorialId:integer,deweyId:integer,carreraId:integer
+
+sequelize model:create --name Prestamo --attributes fechaDevolucion:date,alumnoId:integer,usuarioId:integer,documentoId:integer,observaciones:string,estado:string
+
+
+
+
+
+
